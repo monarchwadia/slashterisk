@@ -1,18 +1,13 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm Monarch Wadia, a self-taught software developer and all-around coding geek. I'm passionate about a lot of things when it comes to code, but the thing that keeps me busy on weekdays is building software for other businesses.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I've worked with lots of frontend and backend technologies -- I guess that makes me what they call a "Full Stack Developer". I love Java for how easy it makes it to build software for enterprises; Ruby for its cleanliness of syntax and for the productivity machine that is Rails; and JavaScript for its amazing community and the sheer versatility it offers. HTML5 is my playground, and I enjoy React just as much as I enjoy Angular 2. I'm also a big fan of Webpack.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I love scifi, sailing, and music. However, for better or for worse, programming is my number hobby.
 
-
-[jekyll-organization]: https://github.com/jekyll
+If you'd ever like to get in touch, [hit me up](../standing-invitation). I'll even buy you coffee if you're in Toronto.
