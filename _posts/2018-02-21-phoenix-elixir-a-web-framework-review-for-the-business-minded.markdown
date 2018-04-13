@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Phoenix & Elixir - a web framework review for the business-minded"
-date:   2018-02-15 00:00:01 -0400
+date:   2018-02-21 01:00:00 -0400
 categories: non-technical project-management
 ---
 
