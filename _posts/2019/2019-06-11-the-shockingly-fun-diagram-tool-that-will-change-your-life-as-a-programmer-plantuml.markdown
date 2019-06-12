@@ -32,7 +32,7 @@ The following examples are all taken from [Real World PlantUML][9fd06373]
 ### Class Diagram
 
 
-![Simple class diagram](images/2019/06/simple-class-diagram.png)
+![Simple class diagram](/images/2019/06/simple-class-diagram.png)
 
 ```PlantUML
 @startuml
@@ -57,7 +57,7 @@ Answers"1" *-- "1"Right : has >
 ```
 
 ### Sequence Diagram, non-english characters and background colors
-![Sequence diagram with chinese characters](images/2019/06/sequence-diagram-with-chinese-characters.png)
+![Sequence diagram with chinese characters](/images/2019/06/sequence-diagram-with-chinese-characters.png)
 
 ```PlantUML
 @startuml
@@ -82,7 +82,7 @@ Answers"1" *-- "1"Right : has >
 
     @enduml
 ```
-![Sequence diagram with boxes](images/2019/06/sequence-diagram-with-boxes.png)
+![Sequence diagram with boxes](/images/2019/06/sequence-diagram-with-boxes.png)
 
 ```plantuml
 @startuml
@@ -113,7 +113,7 @@ Answers"1" *-- "1"Right : has >
 
 ### Activity Diagrams
 
-![Activity Diagram](images/2019/06/activity-diagram.png)
+![Activity Diagram](/images/2019/06/activity-diagram.png)
 
 ```plantuml
 @startuml
