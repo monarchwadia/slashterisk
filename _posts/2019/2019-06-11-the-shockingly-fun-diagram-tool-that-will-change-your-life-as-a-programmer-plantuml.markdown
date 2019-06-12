@@ -20,7 +20,7 @@ I like learning the intricacies of the tools I'm working with.  |  Most diagram 
 
 ## How PlantUML shines
 
-PlantUML is a lightweight markup language that generates diagrams. Mindblowing, I absolutely love it. Three things set PlantUML apart:
+PlantUML is a lightweight markup language that generates diagrams. Mindblowing, I absolutely love it. Four things set PlantUML apart:
 * You code your diagram definition instead of painting it on the screen.
 * The syntax for drawing arrows is `component1 <--> component1`.
 * PlantUML automatically arranges and balances your components and arrows.
@@ -29,8 +29,8 @@ PlantUML is a lightweight markup language that generates diagrams. Mindblowing, 
 ## Examples of PlantUML diagrams
 
 The following examples are all taken from [Real World PlantUML][9fd06373]
-### Class Diagram
 
+#### Class Diagram
 
 ![Simple class diagram](/images/2019/06/simple-class-diagram.png)
 
@@ -56,7 +56,30 @@ Answers"1" *-- "1"Right : has >
 @enduml
 ```
 
-### Sequence Diagram, non-english characters and background colors
+#### Activity Diagrams
+
+![Activity Diagram](/images/2019/06/activity-diagram.png)
+
+```plantuml
+@startuml
+
+title Delete review
+
+(*) --> "User clicks on delete review"
+    --> if "Review is owned by user"
+    	--> [Success] "Delete review from DB"
+	--> "Display success message"
+	--> (*)    
+    else
+	--> [Failure] "Display error message"
+	--> (*)
+    endif
+
+@enduml
+```
+
+#### Sequence diagrams and Chinese charactersets
+
 ![Sequence diagram with chinese characters](/images/2019/06/sequence-diagram-with-chinese-characters.png)
 
 ```PlantUML
@@ -82,6 +105,9 @@ Answers"1" *-- "1"Right : has >
 
     @enduml
 ```
+
+#### More sequence diagrams, French charactersets and colors
+
 ![Sequence diagram with boxes](/images/2019/06/sequence-diagram-with-boxes.png)
 
 ```plantuml
@@ -111,33 +137,11 @@ Answers"1" *-- "1"Right : has >
 @enduml
 ```
 
-### Activity Diagrams
-
-![Activity Diagram](/images/2019/06/activity-diagram.png)
-
-```plantuml
-@startuml
-
-title Delete review
-
-(*) --> "User clicks on delete review"
-    --> if "Review is owned by user"
-    	--> [Success] "Delete review from DB"
-	--> "Display success message"
-	--> (*)    
-    else
-	--> [Failure] "Display error message"
-	--> (*)
-    endif
-
-@enduml
-```
-
 ## PlantUML's limitations
 
 Like all good purpose-built tools, there are also some limitations:
 * PlantUML's diagrams are clean and tidy, but not as beautiful as other tools.
-* PlantUML is great for basic diagrams, but complex compositions are out of its purview.
+* PlantUML is great for basic diagrams, but complex compositions are out of its scope.
 * PlantUML does not support multipage diagrams.
 * PlantUML does not support links between diagrams.
 
@@ -145,10 +149,13 @@ Like all good purpose-built tools, there are also some limitations:
 
 PlantUML helped me discover that the only thing wrong with diagrams is how bad most diagram tools are.
 
-PlantUML is useful for students, junior developers, senior developers, team leads, dev managers, solutions architects, enterprise architects, technical project managers and CTOs. In short, if you can code, you should absolutely do yourself a favour and spend a few hours learning PlantUML.
+PlantUML is useful for students, junior developers, senior developers, team leads, dev managers, solutions architects, enterprise architects, technical project managers and CTOs.
+
+In short, if you can code, you should absolutely do yourself a favour and spend a few hours learning PlantUML.
 
 ## Why you should trust me
 
-Source: I've been using PlantUML for 5 years and I absolutely love it. PlantUML saved my developer-soul as a consultant working with corporations. My clients often(and for good reason) need ideas rendered in a shareable, visual format that can be put up on slides and passed around in PDFs.
+Source: I've been using PlantUML for 5 years and I absolutely love it. PlantUML saved my developer-soul as a consultant working with corporations. My corporate clients often (and for good reason) need ideas rendered in a shareable, visual format that can be put up on slides and passed around in PDFs. PlantUML lets me deliver value while staying true to my technical roots.
+
 
 [9fd06373]: https://real-world-plantuml.com "Real World PlantUML"
