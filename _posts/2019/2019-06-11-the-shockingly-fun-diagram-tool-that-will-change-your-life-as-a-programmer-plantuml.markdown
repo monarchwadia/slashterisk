@@ -153,9 +153,15 @@ PlantUML is useful for students, junior developers, senior developers, team lead
 
 In short, if you can code, you should absolutely do yourself a favour and spend a few hours learning PlantUML.
 
+## Next steps
+
+In my [next post][e565e2e6], I'll explain how to install PlantUML and offer an explanation of how it works.
+
 ## Why you should trust me
 
 Source: I've been using PlantUML for 5 years and I absolutely love it. PlantUML saved my developer-soul as a consultant working with corporations. My corporate clients often (and for good reason) need ideas rendered in a shareable, visual format that can be put up on slides and passed around in PDFs. PlantUML lets me deliver value while staying true to my technical roots.
+
+  [e565e2e6]: /2019/06/12/plantuml-getting-started.html "PlantUML: Getting Started"
 
 
 [9fd06373]: https://real-world-plantuml.com "Real World PlantUML"
