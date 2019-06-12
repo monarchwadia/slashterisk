@@ -4,36 +4,42 @@ title: About
 permalink: /about/
 ---
 
-Monarch is from Toronto, Canada. He has been helping companies build software projects on time and within budget for the past 7 years. He also helps software teams deliver faster, while minimizing bugs. His approach encompasses architecture, agile process improvement, developer training, and hands-on software engineering.
+Monarch Wadia is from Toronto, Canada. He helps corporations upgrade legacy projects, modernize their architecture and create new software products. His approach encompasses architecture, process improvement, hands-on coding and technical advising.
 
-## Technical Toolbox
+## Personal Toolbox
 
-Monarch is a specialist in building SaaS and web applications using Agile methodologies. He has in-depth, extensive, production-level experience in the following technologies, though he continues to dabble in many more.
+Monarch has in-depth, extensive, production-level experience in the following technologies, though he continues to dabble in many more.
 
-<p style="background-color: #CCFF88; font-style: italic">Technologies with less than 1 year of experience are considered to have been "dabbled in", and are not listed here.</p>
-
-#### Architectures
+#### Stacks
+* Standalone frontends
+* Full stack applications
 * MVC Web Applications
-* Flux & Unidirectional Data Flow
 * Microservices
 * REST APIs
+* Hybrid mobile apps
 * Single Page Applications (SPAs)
+* Progressive web apps (PWAs)
+* SDKs and Libraries
 
-#### Backend
+#### Backend technologies
 
-* Java - Spring, Jersey, Maven, Guice, J2EE
-* Node.js & Express
-* Ruby on Rails & various gems
+* Java - Spring, Jersey, Maven, Gradle, J2EE, Tomcat
+* Node.js
+* Ruby & Ruby on Rails
+* A little bit of Python
+* A little bit of PHP
+* A little bit of Scala
 
 #### Frontend
 
 * React & Redux
-* Angular 1 & Angular 2 (4.. 5.. etc.)
-* D3.js
+* Vue & VueX
+* Angular 1 & Angular 2 (4.. 6.. 8.. etc.)
 * Ext.js
 * Custom / "Vanilla" JavaScript
-* Build tools - Gulp, Grunt, Webpack
-* CSS and styling - SASS, Bootstrap
+* Gulp, Grunt, Webpack, Babel
+* CSS and styling - SASS, Bootstrap, Bulma
+* D3.js
 
 #### Databases
 
